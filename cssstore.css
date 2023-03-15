@@ -1,0 +1,175 @@
+/* div, h3 {
+  border-style: dashed;
+  border-color: black;
+} */
+
+.header {
+  display: grid;
+  justify-content: center;
+  color: rgb(216, 30, 91);
+  background-color: rgb(255, 255, 255);
+  font-size: 52px;
+  font-family: cursive ;
+}
+
+.shoplist {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  gap: 15px;
+  justify-content: center;
+  align-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.shopitem {
+  position: relative;
+  background-color: rgb(51, 12, 47);
+  padding: 10px;
+  box-shadow: 0 1px 4px rgba(40, 37, 37, 0.1);
+  border-radius: 25px;
+}
+
+.portrait {
+  overflow: hidden;
+}
+
+.portrait:hover img {
+  transform: scale(1.5);
+}
+
+.itemimg {
+  transition: 0.4s;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+.itemname {
+  font-size: 25px;
+  color: rgb(198, 216, 211);
+}
+
+.itemprice {
+  font-size: 35px;
+  color: rgb(198, 216, 211);
+}
+
+.addtocart {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(244, 185, 66);
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.addtocart:hover {
+  color: rgb(39, 181, 101);
+}
+
+.cart {
+  width: 700px;
+  padding: 20px;
+  background-color: white;
+}
+
+
+.cartitem {
+  display: grid;
+  grid-template-columns: 10% 40% 15%;
+  align-items: center;
+  gap: 75px;
+  margin-top: 15px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+}
+.cartimg {
+  width: 100px;
+  height: 90px;
+  object-fit: cover;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.infoitem {
+  display: grid;
+  row-gap: 10px;
+}
+
+.cartitemname {
+  font-size: 15px;
+  color: #ff6348;
+}
+
+.cartitemprice {
+  display: flex;
+  justify-content: space-between;
+}
+
+.unitprice {
+  font-size: 20px;
+}
+
+.subtotal {
+  color: #dd850a;
+  font-size: 20px;
+}
+
+.cartqty {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  width: 35px;
+  text-align: center;
+  font-size: 15px;
+}
+.cartrmv {
+  font-size: 40px;
+  color: rgb(5, 0, 0);
+  cursor: pointer;
+}
+.cartrmv:hover {
+  color: rgba(255, 0, 0, 0.786);
+}
+
+.total {
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  align-items: center;
+  justify-content:end   ;
+  margin-top: 10px;
+  width: 700px;
+}
+
+.totalprice {
+  margin-left: 5px;
+  width: 200px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(119, 178, 31)
+}
+
+h3{
+  text-align: center;
+}
+
+.buy{
+  display:flex;
+  justify-content: center;
+  width: 700px;
+}
+
+.btnbuy{
+  padding: 12px 20px;
+  background-color:#2f3542;
+  color:#fff;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btnbuy:hover{
+background-color: #2ed573;
+color: gold;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>store</title>
+    <link rel="stylesheet" href="cssstore.css" />
+
+    <!-- link to fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/aa0d1e90d3.js"
+      crossorigin="anonymous"
+    ></script>
+
+  </head>
+  <body>
+    <div class="header">
+      <h1> <b>MOKStore</b></h1>
+    </div>
+
+    <div class="shoplist">
+      <div class="shopitem">
+        <h2 class="itemname">Wooden Car</h2>
+        <div class="portrait">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0509/6629/8806/products/Car_2of4_829e3cab-a8a4-48bb-a16d-d5fd25b40a20_4149x.jpg"
+            class="itemimg"
+          />
+        </div>
+        <h3 class="itemprice">$11</h3>
+        <i class="fa-solid fa-cart-shopping addtocart"></i>
+      </div>
+      <div class="shopitem">
+        <h2 class="itemname">Makeup Set for Girls</h2>
+        <div class="portrait">
+          <img
+            src="https://i5.walmartimages.com/asr/825de90b-39ce-45df-9165-22b019ae98c6.aba4e611242f2bceaaf0a388b13efc78.jpeg"
+            class="itemimg"
+          />
+        </div>
+        <h3 class="itemprice">$35</h3>
+        <i class="fa-solid fa-cart-shopping addtocart"></i>
+      </div>
+      <div class="shopitem">
+        <h2 class="itemname">Running shoes</h2>
+        <div class="portrait">
+          <img
+            src="https://pyxis.nymag.com/v1/imgs/436/f4c/25e7e69f0d3e5f17a85ef2bf9adca2bf95.rhorizontal.w600.jpg"
+            class="itemimg"
+          />
+        </div>
+        <h3 class="itemprice">$120</h3>
+        <i class="fa-solid fa-cart-shopping addtocart"></i>
+      </div>
+    </div>
+
+    <div class="cart">
+      <div><h1 style="color: rgb(216, 30, 91);">Your Cart</h1></div>
+      <div class="order">
+        <!-- <div class="cartitem">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/OH-58D_1st_Squadron%2C_17th_Cavalry_Regiment_%28cropped%29.jpg/450px-OH-58D_1st_Squadron%2C_17th_Cavalry_Regiment_%28cropped%29.jpg"
+            class="cartimg"
+          />
+          <div class="infoitem">
+            <div class = "cartitemname">blablabla</div>
+            <div class="cartitemprice">
+              <div class ="unitprice">600000$</div>
+              <input type="number" value="2" min ="0" class ="cartqty" />
+              <div class ="subtotal">0$</div>
+            </div>
+          </div>
+          <i class="fa-solid fa-trash-can cartrmv"></i>
+        </div>
+        <div class="cartitem">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/OH-58D_1st_Squadron%2C_17th_Cavalry_Regiment_%28cropped%29.jpg/450px-OH-58D_1st_Squadron%2C_17th_Cavalry_Regiment_%28cropped%29.jpg"
+            class="cartimg"
+          />
+          <div class="infoitem">
+            <div class = "cartitemname"> blablabla2 </div>
+            <div class="cartitemprice">
+              <div class ="unitprice">900000$</div>
+
+              <button type="button" class="btn btn-success" id="plus" >+</button>
+              <input type="number" value="4" min ="0" class ="cartqty" />
+              <button type="button" class="btn btn-danger" id="minus" >-</button>
+
+
+              <div class ="subtotal">0$</div>
+            </div>
+          </div>
+          <i class="fa-solid fa-trash-can cartrmv"></i>
+        </div> -->
+      </div>
+    </div>
+
+    <div class="total">
+      <div><h3>Your total is:</h3></div>
+      <div class="totalprice"><h3>0$</h3></div>
+    </div>
+    <div class="buy"><button class="btnbuy">Place Order</button></div>
+
+    <script src="jsstore.js"></script>
+  </body>
+</html>
